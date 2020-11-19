@@ -1,1 +1,1 @@
-web: cd web/app && mvn jetty:run
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
